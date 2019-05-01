@@ -17,7 +17,7 @@ Quasar CLI will retrieve it from NPM and install the extension.
 - Example **formData**:
   ```json
   formData: {
-    title: "test title"
+    "title": "test title"
   }
   ```
 - Example **schema**:
