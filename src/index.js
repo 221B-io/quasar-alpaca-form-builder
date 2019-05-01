@@ -13,22 +13,7 @@ module.exports = function (api) {
     });
 
     api.extendQuasarConf(conf => {
-
-
-      // let requiredQuasarComponents = [
-      //   'QStepper',
-      //   'QStep',
-      //   'QTabs',
-      //   'QTab',
-      //   'QSeparator',
-      //   'QTabPanels',
-      //   'QTabPanel',
-      //   'QSelect',
-      //   'QSpace',
-      //   'QInput'
-      // ]
-      // conf.framework.components.push(requiredQuasarComponents)
-
+      
       conf.boot.push(
         "~quasar-app-extension-alpaca-forms/src/boot/axios.js"
       );
