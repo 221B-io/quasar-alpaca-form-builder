@@ -1,5 +1,3 @@
-Guide: https://v1.quasar-framework.org/app-extensions/development-guide/introduction
-
 # Alpaca Quasar App Extension 
 Alpaca component built for use in quasar
 
@@ -168,3 +166,5 @@ quasar ext invoke alpaca-forms
       "views": "base"
     }
   ```
+
+  Further reading: https://v1.quasar-framework.org/app-extensions/development-guide/introduction
