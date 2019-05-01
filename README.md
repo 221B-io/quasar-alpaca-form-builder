@@ -5,7 +5,7 @@ Alpaca component built for use in quasar
 
 # Install
 ```bash
-quasar ext add alpaca-forms # still need to publish on npm
+quasar ext add alpaca-forms
 ```
 Quasar CLI will retrieve it from NPM and install the extension.
 
