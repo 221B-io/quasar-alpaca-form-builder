@@ -4,10 +4,15 @@ Guide: https://v1.quasar-framework.org/app-extensions/development-guide/introduc
 Alpaca component built for use in quasar
 
 # Install
+First link the extension to your app 
 ```bash
-quasar ext add alpaca-forms
+npm link quasar-app-extension-alpaca-forms
 ```
-Quasar CLI will retrieve it from NPM and install the extension.
+
+Then invoke the component
+```bash
+quasar ext invoke alpaca-forms 
+```
 
 # Usage
 - Add the formBuilder component to your desired .vue file  
