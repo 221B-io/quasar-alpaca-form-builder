@@ -1,6 +1,6 @@
 # Alpaca Quasar App Extension 
 Alpaca component built for use in quasar
-
+<img src="https://i.ibb.co/K6h1F1n/Screen-Shot-2019-05-01-at-4-26-20-PM.png">
 # Install
 First link the extension to your app 
 ```bash

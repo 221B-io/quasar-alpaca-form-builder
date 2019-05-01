@@ -1,6 +1,6 @@
 {
   "name": "quasar-app-extension-alpaca-forms",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "alpaca form builder built for quasar",
   "author": "Ryan Mason <ryanmasonjar@gmail.com>",
   "license": "MIT",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/221B-io/quasar-alpaca-form-builder"
   },
   "bugs": "",
   "homepage": "",
