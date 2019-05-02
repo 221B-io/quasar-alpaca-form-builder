@@ -167,4 +167,15 @@ quasar ext invoke alpaca-forms
     }
   ```
 
-  Further reading: https://v1.quasar-framework.org/app-extensions/development-guide/introduction
+## Further reading: 
+  - Quasar app extensions: https://v1.quasar-framework.org/app-extensions/development-guide/introduction
+  - Alpaca Forms: http://www.alpacajs.org/documentation.html
+
+## Future development
+- The Quasar view for alpaca still needs to be finished. below are the elements that still need work. With that in mind. Alpaca should be completely useable but the UI aspects might not all look the same.
+  - radio button
+  - check boxes 
+  - file
+  - disable fields
+  - collapsible
+  
