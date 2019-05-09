@@ -210,10 +210,21 @@ export default {
 				"horizontal": false
     	});
 
+			let formCallback = {
+            "buttons": {
+                "submit": {
+                    "click": function() {
+                        var value = this.getValue();
+												self.$emit('form-data', value)
+                    }
+                }
+            }
+        };
 
         let formSchema = this.schema;
 				formSchema.data = self.formData;
 				formSchema.view = 'quasarView'
+				formSchema.options.form = formCallback;
 				formSchema.postRender = function(control) {
 					// Check if input has data in it. if it does add classes
 					self.$jquery(document).find("input[id^='alpaca']").each(function(i,item){

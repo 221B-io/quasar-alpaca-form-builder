@@ -15,7 +15,7 @@ quasar ext invoke alpaca-forms
 # Usage
 - Add the formBuilder component to your desired .vue file  
 
-   `<formBuilder :schema="schema" :formData="formData"/>`
+   `<formBuilder :schema="schema" :formData="formData" @form-data="processFormData"/>`
 
 - Example **formData**:
   ```json
